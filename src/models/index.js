@@ -9,20 +9,30 @@ let users = {
   },
 };
 
-let messages = {
+let transactions = {
   1: {
     id: '1',
-    text: 'Hello World',
-    userId: '1',
+    type: 'CR',
+    amount: '9000',
   },
   2: {
     id: '2',
-    text: 'By World',
-    userId: '2',
+    type: 'PR',
+    amount: '9000',
+  },
+  3: {
+    id: '3',
+    type: 'CR',
+    amount: '9000',
+  },
+  4: {
+    id: '4',
+    type: 'DR',
+    amount: '3000',
   },
 };
 
 export default {
   users,
-  messages,
+  transactions,
 };
